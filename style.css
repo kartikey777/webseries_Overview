@@ -1,0 +1,347 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vmax 1vmax;
+    background-image: url(1123510.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+#main #page1 .nav{
+    width: 100%;
+    height: 10vh;
+    border-radius: 50px;
+    /* background-color: aqua; */
+    padding: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: transparent;
+}
+
+#main #page1 .nav img{
+    height: 10vh;
+    object-fit: cover;
+    width: 8%;
+    
+}
+#main #page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+#main #page1 .nav #home{
+    display: flex;
+    align-items: center;
+
+}
+#main #page1 .nav #home h3{
+    margin-left: 2px;
+    color: #B6E388;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease 0.1s;
+}
+#main #page1 .nav #home i{
+    font-size: 1.5vmax;
+}
+
+#main #page1 .nav #search{
+    display: flex;
+    align-items: center;
+    
+
+}
+#main #page1 .nav #search h3{
+    margin-left: 2px;
+    color:#B6E388;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease 0.1s;
+}
+#main #page1 .nav #search i{
+    font-size: 1.5vmax;
+}
+#main #page1 .nav i{
+    font-size: 1.5vmax;
+    color: yellow;
+}
+#main #page1 .nav #lokinav{
+    width: 27%;
+    height: 12vh;
+    /* background-color: #013C06; */
+    /* background-image: url(loki_aesthetic_1_by_batsinthefor.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;   
+    clip-path: polygon(88% 0, 83% 49%, 100% 50%, 100% 54%, 100% 100%, 0 100%, 0 0);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 60px; */
+
+
+
+}
+#main #page1 #text1 h1{
+    font-size: 3.5vmax
+}
+#main #page1 #text1{
+    position: relative;
+    top: 20%;
+    right: 23%;
+    -webkit-text-stroke: 2px #C9E3B3;
+    color:  #053501;
+    letter-spacing: 1px;
+    
+    
+}
+
+#main #page1 #text2 img{
+    width: 19vmax;
+    transition: all ease 0.12s;
+}
+#main #page1 #text2{
+    position: relative;
+    left: 17%;
+    top: 13%;
+}
+#main2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(1201331.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main2 #heading{
+    /* color: #053501; */
+    position: relative;
+    top: 10%; 
+    left: 14%;
+    font-size: 1.85vmax; 
+    color: #091C02;
+    -webkit-text-stroke: 1.5px #C07F00;
+    font-family: 'Times New Roman', Times, serif; 
+}
+#main2 #storiyaan{
+    position: relative;
+    width: 20%;
+    height: 50vh;
+    /* background-color: brown; */
+    padding: 0 30px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* border-right: 1px solid red; */
+    /* background-color: aqua; */
+    top: 19%;
+    left: 16%;
+    align-items: center;    
+    
+}
+#main2 ::-webkit-scrollbar{
+    display: none;
+}
+#main2 #storiyaan .story{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    /* background-color: aquamarine; */
+    /* display: inline-block; */
+    border: 1.5px solid red;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 20px;
+    left: 16%;
+    
+}
+#main2 #storiyaan .story img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#main2 #storiyaan h3{
+    font-size: 2vmax;
+    color: white; 
+    text-align: center;  
+    margin-bottom: 30px;
+    color: #360305;
+    -webkit-text-stroke: 0.4px #F8FBC6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#main3{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#main3 #left{
+    width: 30%;
+    height: 80vh;
+    /* background-color: #B6E388; */
+    position: relative;
+    top: 7%;
+    background-image: url(https://w0.peakpx.com/wallpaper/1005/542/HD-wallpaper-loki-loki-serious.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main3 #right{
+    width: 65%;
+    height: 80vh;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main3 #right #top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    justify-content: space-between;
+}
+#main3 #right #top #season{
+    display: flex;
+    align-items: center;
+}
+
+#main3 #right #top h4{
+    font-size: 3vmax;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    -webkit-text-stroke:2px #053501;
+    letter-spacing: 1px;
+}
+#main3 #right #top #season h3{
+    font-size: 2vmax;
+    color:  #80977B;
+    letter-spacing: 1px;
+}
+#main3 #right #top #season i{
+    font-size: 2vmax;
+    margin-left: 4px;
+    color: #B6E388;
+}
+#main3 #right #rt #r1{
+    width: 40%;
+    height: 70vh;
+    /* background-color: #091C02; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#main3 #right #rt #r1 #episode1{
+    width: 100%;
+    height: 25vh;
+    /* background-color: #091C02; */
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Loki-Wallpaper-HD-Free-download-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-top: 6px;
+    object-fit: cover;
+}
+
+#main3 #right #rt #r1 #episode2{
+    width: 80%;
+    height: 18vh;
+    /* background-color: #091C02; */
+    background-image: url(loki-episode-3-love-is-a-dagger-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-left: 28px;
+}
+#main3 #right #rt #r1 #episode3{
+    width: 80%;
+    height: 18vh;
+    /* background-color: #091C02; */
+    background-image: url(Effects-Feature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    margin-left: 28px;
+}
+#main3 #right #rt #r2{
+    /* background-color: #360305; */
+    width: 60%;
+    height: 30vh;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* display: inline-block; */
+}
+#main3 #right #rt {
+    display: flex;
+}
+
+#main3 #right #rt #r2 i{
+    color: white;
+    font-size: 3vmax;
+    margin-bottom: 4px;
+}
+
+#main3 #right #rt #r2 #content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main3 #right #rt #r2 #content h5{
+    color: white;
+    font-size: 1.75vmax;
+    font-family: sans-serif
+}
+#main3 #right #rt #r2 #content #top{
+    font-size: 2vmax;
+    margin-bottom: 8px;
+    -webkit-text-stroke: 1px rgb(65,223,169);
+}
+
+#main #page1 .nav #search :hover{
+    cursor: pointer;
+}
+
+#main #page1 .nav #home :hover{
+    cursor: pointer;
+}
+
+#main2 #storiyaan :hover{
+    cursor: all-scroll;
+}
+
+
+
+
+
+
+
+
